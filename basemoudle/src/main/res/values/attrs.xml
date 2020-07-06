@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundbar_width" format="dimension" />
+        <attr name="roundbar_ciclecolor" format="color" />
+        <attr name="roundbar_startcolor" format="color" />
+        <attr name="roundbar_endcolor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="RoundRadiusView">
+        <attr name="backgroundcolor" format="color" />
+        <attr name="radius_text" format="string" />
+        <attr name="radius_textsize" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="radius_textcolor" format="color" />
+        <attr name="stroke" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="LabelView">
+        <attr name="image_src" format="reference" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="padding_top" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="image_width" format="dimension" />
+        <attr name="image_height" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="TopBarView">
+    <attr name="back_src" format="reference" />
+    <attr name="title" format="string" />
+    <attr name="backvisiable" format="string" />
+    <attr name="title_color" format="color" />
+    <attr name="title_size" format="dimension" />
+    <attr name="margin_left" format="dimension" />
+    <attr name="fullenscreen" format="string" />
+    <attr name="righttext" format="string" />
+    <attr name="righttextsize" format="dimension" />
+    <attr name="righttextcolor" format="color" />
+    <attr name="isshowright" format="boolean" />
+        <attr name="topbarbackgroundcolor" format="color"/>
+</declare-styleable>
+    <declare-styleable name="NumPickView">
+        <attr name="totalNum" format="integer"/>
+        <attr name="showNum" format="integer"/>
+        <attr name="textColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="FoldableTextView">
+        <attr name="maxLineInShrink" format="reference|integer" />
+        <attr name="ellipsisHint" format="reference|string" />
+        <attr name="expandHint" format="reference|string" />
+        <attr name="shrinkHint" format="reference|string" />
+        <attr name="gapToExpandHint" format="reference|string" />
+        <attr name="gapToShrinkHint" format="reference|string" />
+        <attr name="isExpandHintShow" format="reference|boolean" />
+        <attr name="isShrinkHintShow" format="reference|boolean" />
+        <attr name="expandHintColor" format="reference|color" />
+        <attr name="shrinkHintColor" format="reference|color" />
+        <attr name="textState" format="enum">
+            <enum name="shrink" value="0" />
+            <enum name="expand" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
