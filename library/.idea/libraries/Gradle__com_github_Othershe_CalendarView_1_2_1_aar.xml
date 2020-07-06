@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Othershe:CalendarView:1.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c32cace70f292a89260fad6ba0c55e7f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c32cace70f292a89260fad6ba0c55e7f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Othershe/CalendarView/1.2.1/29ec02a24da46d58b3d643694c90c97e6a0e4cf9/CalendarView-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
