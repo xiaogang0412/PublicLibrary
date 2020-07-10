@@ -14,11 +14,11 @@ import androidx.annotation.Nullable;
 
 import com.polyclinic.basemoudle.R;
 import com.polyclinic.library.view.LoadingView;
-import com.scwang.smartrefresh.layout.api.RefreshHeader;
-import com.scwang.smartrefresh.layout.api.RefreshKernel;
-import com.scwang.smartrefresh.layout.api.RefreshLayout;
-import com.scwang.smartrefresh.layout.constant.RefreshState;
-import com.scwang.smartrefresh.layout.constant.SpinnerStyle;
+import com.scwang.smart.refresh.layout.api.RefreshHeader;
+import com.scwang.smart.refresh.layout.api.RefreshKernel;
+import com.scwang.smart.refresh.layout.api.RefreshLayout;
+import com.scwang.smart.refresh.layout.constant.RefreshState;
+import com.scwang.smart.refresh.layout.constant.SpinnerStyle;
 
 /**
  * @author Lxg
@@ -73,15 +73,11 @@ public class LottieRefreshHeader extends LinearLayout implements RefreshHeader {
     }
 
     @Override
-    public void onPulling(float percent, int offset, int height, int extendHeight) {
-
-
-    }
-
-    @Override
-    public void onReleasing(float percent, int offset, int height, int extendHeight) {
+    public void onMoving(boolean isDragging, float percent, int offset, int height,
+                         int maxDragHeight) {
 
     }
+
 
     @Override
     public void onReleased(RefreshLayout refreshLayout, int height, int extendHeight) {
